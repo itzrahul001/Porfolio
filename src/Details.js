@@ -115,8 +115,8 @@ export const projectDetails = [
     description: `This is sample project description random things are here in description This is sample
 project lorem ipsum generator for dummy content`,
     techstack: "HTML/CSS,Tailwind, JS|React",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    previewLink: "#",
+    githubLink: "https://github.com/itzrahul001/Porfolio",
   },
   {
     title: "ToDOList/Task Manager",
@@ -128,8 +128,8 @@ project lorem ipsum generator for dummy content`,
 rience.
   Utilized React’s state management to handle task updates and interactions efficiently`,
     techstack: "HTML/CSS, ReactJs",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    previewLink: "https://frolicking-llama-d70b12.netlify.app/",
+    githubLink: "https://github.com/itzrahul001/ToDoApp",
   },
   {
     title: "Travlers Landing Page",
@@ -138,8 +138,8 @@ rience.
  Applied CSS media queries for optimal viewing across various devices.
   Utilized Git for version control, ensuring systematic code management.`,
     techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    previewLink: "https://itzrahul001.github.io/Travelers/",
+    githubLink: "https://github.com/itzrahul001/Travelers",
   },
   
    
