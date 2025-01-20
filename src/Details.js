@@ -25,6 +25,8 @@ import postman from "./assets/techstack/postman.png";
 import projectImage1 from "./assets/projects/project1.png";
 import projectImage2 from "./assets/projects/project2.png";
 import projectImage3 from "./assets/projects/project3.png";
+import projectmvc from "./assets/projects/projectMVC.png";
+
 
 
 // Logos
@@ -109,11 +111,22 @@ export const techStackDetails = {
 
 // Enter your Project Details here
 export const projectDetails = [
+   
+  {
+    title: "Student Managemant/ Spring MVC Project",
+    image: projectmvc,
+    description: `
+This Student Management System project, built using Spring MVC, demonstrates CRUD (Create, Read, Update, Delete) operations for managing student details. The application allows users to add, update, view, and delete student records, leveraging the MVC design pattern to separate concerns for better organization. Through this project, I gained hands-on experience with Spring framework features such as Controllers, Services, and Repositories, while learning to integrate a relational database for persistent storage. This project helped me understand the implementation of CRUD operations, the importance of MVC architecture, and the development of scalable and maintainable web applications.`,
+    techstack: "HTML/CSS,Bootstrap, Spring MVC",
+    previewLink: "#",
+    githubLink: "https://github.com/itzrahul001/Spring-MVC-Project",
+  },
+
   {
     title: "My Portfolio Website",
     image: projectImage1,
     description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+project `,
     techstack: "HTML/CSS,Tailwind, JS|React",
     previewLink: "#",
     githubLink: "https://github.com/itzrahul001/Porfolio",
