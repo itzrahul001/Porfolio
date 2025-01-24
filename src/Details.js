@@ -26,6 +26,7 @@ import projectImage1 from "./assets/projects/project1.png";
 import projectImage2 from "./assets/projects/project2.png";
 import projectImage3 from "./assets/projects/project3.png";
 import projectmvc from "./assets/projects/projectMVC.png";
+import projectContact from "./assets/projects/projectContact.png";
 
 
 
@@ -113,12 +114,23 @@ export const techStackDetails = {
 export const projectDetails = [
    
   {
+    title: "OnlineContactManager/ Spring Boot Project",
+    image: projectContact,
+    description: `The Online Contact Manager is a robust Spring Boot application designed to simplify the process of managing personal and professional contacts. Built with a focus on security and user experience, this application incorporates key technologies like Spring Security and Thymeleaf for seamless functionality and a responsive UI.
+`,
+    techstack: "HTML/CSS,Bootstrap, Spring boot, Spring Security, Thymeleaf",
+    previewLink: "https://github.com/itzrahul001/OnlineContactManager/blob/main/README.md",
+    githubLink: "https://github.com/itzrahul001/OnlineContactManager",
+  },
+
+   
+  {
     title: "Student Managemant/ Spring MVC Project",
     image: projectmvc,
     description: `
 This Student Management System project, built using Spring MVC, demonstrates CRUD (Create, Read, Update, Delete) operations for managing student details. The application allows users to add, update, view, and delete student records, leveraging the MVC design pattern to separate concerns for better organization. Through this project, I gained hands-on experience with Spring framework features such as Controllers, Services, and Repositories, while learning to integrate a relational database for persistent storage. This project helped me understand the implementation of CRUD operations, the importance of MVC architecture, and the development of scalable and maintainable web applications.`,
     techstack: "HTML/CSS,Bootstrap, Spring MVC",
-    previewLink: "#",
+    previewLink: "https://github.com/itzrahul001/Spring-MVC-Project/blob/main/README.md",
     githubLink: "https://github.com/itzrahul001/Spring-MVC-Project",
   },
 
