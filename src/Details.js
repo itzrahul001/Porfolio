@@ -27,6 +27,7 @@ import projectImage2 from "./assets/projects/project2.png";
 import projectImage3 from "./assets/projects/project3.png";
 import projectmvc from "./assets/projects/projectMVC.png";
 import projectContact from "./assets/projects/projectContact.png";
+import chatApp from "./assets/projects/chatApp.png"
 
 
 
@@ -135,10 +136,19 @@ This Student Management System project, built using Spring MVC, demonstrates CRU
   },
 
   {
+    title: "Real-Time Chat Application",
+    image: chatApp,
+    description: `
+This project is a Simple Real-Time Chat Application built using Spring Boot, Spring WebSocket, and Spring Messaging with the STOMP protocol for real-time communication. The frontend, designed with Thymeleaf, Bootstrap 5, and JavaScript, provides a responsive and user-friendly interface for live chat. Messages are transmitted over WebSockets, enabling instant updates across all connected clients. The backend handles WebSocket communication and message broadcasting, while the frontend dynamically displays chat updates without requiring page reloads. This application serves as a practical example of implementing real-time messaging using modern web technologies. `,
+    techstack: "HTML/CSS,Bootstrap ,Javascript ,Spring Boot, Spring Websocket,Spring Messaging (STOMP),Thymeleaf",
+    previewLink: "#",
+    githubLink: "https://github.com/itzrahul001/Real-Time-Chat-Application",
+  },
+
+  {
     title: "My Portfolio Website",
     image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project `,
+    description: `Built with React.js, HTML, and CSS, this portfolio website serves as a showcase of my skills, projects, and personal journey in the tech world. It highlights my expertise, professional experiences, and achievements in a visually appealing and interactive way. `,
     techstack: "HTML/CSS,Tailwind, JS|React",
     previewLink: "#",
     githubLink: "https://github.com/itzrahul001/Porfolio",
