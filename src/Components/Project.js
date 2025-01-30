@@ -9,7 +9,20 @@ function Project({ title, image, description, techstack, previewLink, githubLink
 
   return (
     <article className="rounded-xl mt-10 overflow-hidden shadow-xl shadow-slate-300 dark:shadow-slate-900">
-      <img src={image} alt={title} loading="lazy" />
+      {/* Image with hover effect */}
+      <div className="overflow-hidden">
+        <img
+          src={image}
+          alt={title}
+          loading="lazy"
+          className="w-full h-48 object-cover transition-all duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg"
+          style={{
+            cursor: "pointer",
+            transformOrigin: "center",
+            filter: "drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1))",
+          }}
+        />
+      </div>
       <div className="dark:bg-dark-card p-4">
         <h1 className="dark:text-light-heading font-semibold text-lg pt-1">{title}</h1>
         <div

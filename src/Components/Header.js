@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { logos, socialMediaUrl } from "../Details";
+import "../style/navStyle.css"
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,27 +37,27 @@ function Header() {
       <nav className={` ${!isOpen ? "hidden" : null} text-center md:flex justify-between`}>
         <ul className="dark:text-light-content font-medium md:flex items-center md:space-x-5 md:mr-10">
           <li className="pb-1 md:pb-0">
-            <NavLink to="/" onClick={toggleClass}>
+            <NavLink to="/" onClick={toggleClass} className="hover-underline" > 
               Home
             </NavLink>
           </li>
           <li className="pb-1 md:pb-0">
-            <NavLink to="/about" onClick={toggleClass}>
+            <NavLink to="/about" onClick={toggleClass} className="hover-underline">
               About
             </NavLink>
           </li>
           <li className="pb-1 md:pb-0">
-            <NavLink to="/technologies" onClick={toggleClass}>
+            <NavLink to="/technologies" onClick={toggleClass} className="hover-underline">
               Technologies
             </NavLink>
           </li>
           <li className="pb-1 md:pb-0">
-            <NavLink to="/projects" onClick={toggleClass}>
+            <NavLink to="/projects" onClick={toggleClass} className="hover-underline">
               Projects
             </NavLink>
           </li>
           <li>
-            <NavLink to="/contact" onClick={toggleClass}>
+            <NavLink to="/contact" onClick={toggleClass} className="hover-underline">
               Contact
             </NavLink>
           </li>
@@ -65,7 +66,7 @@ function Header() {
           <li>
             <a href={twitter} target="_blank" rel="noreferrer noopener">
               <svg
-                className="dark:fill-light-heading fill-dark-heading"
+                className="dark:fill-light-heading fill-dark-heading  svg-hover-effect"
                 width="32"
                 height="32"
                 viewBox="0 0 32 32"
@@ -79,7 +80,7 @@ function Header() {
           <li>
             <a href={linkdein} target="_blank" rel="noreferrer noopener">
               <svg
-                className="dark:fill-light-heading fill-dark-heading"
+                className="dark:fill-light-heading fill-dark-heading svg-hover-effect"
                 width="30"
                 height="30"
                 viewBox="0 0 30 30"
@@ -93,7 +94,7 @@ function Header() {
           <li>
             <a href={github} target="_blank" rel="noreferrer noopener">
               <svg
-                className="dark:fill-light-heading fill-dark-heading"
+                className="dark:fill-light-heading fill-dark-heading svg-hover-effect"
                 width="30"
                 height="30"
                 viewBox="0 0 30 30"

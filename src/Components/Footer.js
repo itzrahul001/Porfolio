@@ -6,7 +6,7 @@ function Footer() {
         Designed and Coded by{" "}
         <a
           className="font-medium text-gradient"
-          href="https://pavanmg.in"
+          href="https://www.linkedin.com/in/rahul-yadav-302a6b1a8/"
           target="_blank"
           rel="noreferrer noopener"
         >

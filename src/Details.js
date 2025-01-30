@@ -1,4 +1,3 @@
-// Enter all your detials in this file
 // Logo images
 import logogradient from "./assets/logo.svg";
 import logo from "./assets/logo.svg";
@@ -15,6 +14,8 @@ import bootstrap from "./assets/techstack/bootstrap.png";
 import java from "./assets/techstack/java.png";
 import spring from "./assets/techstack/spring.png";
 import hibernate from "./assets/techstack/hibernate.png";
+import springSecurity from "./assets/techstack/springSecurity.png";
+import aws from "./assets/techstack/aws.png"
 import vscode from "./assets/techstack/vscode.png";
 import github from "./assets/techstack/github.png";
 import git from "./assets/techstack/git.png";
@@ -31,13 +32,13 @@ import chatApp from "./assets/projects/chatApp.png"
 
 
 
-// Logos
+
 export const logos = {
   logogradient: logogradient,
   logo: logo,
 };
 
-// Enter your Personal Details here
+
 export const personalDetails = {
   name: "Rahul Yadav",
   tagline: "I'm a Java full Stack Developer",
@@ -49,7 +50,7 @@ ate about continuous learning and eager to contribute technical skills to drive 
  development environment.`,
 };
 
-// Enter your Social Media URLs here
+
 export const socialMediaUrl = {
   linkdein: "https://www.linkedin.com/in/rahul-yadav-302a6b1a8/",
   github: "https://github.com/itzrahul001/",
@@ -57,7 +58,7 @@ export const socialMediaUrl = {
   instagram: "https://www.instagram.com/",
 };
 
-// Enter your Work Experience here
+
 export const workDetails = [
 
 
@@ -70,7 +71,7 @@ export const workDetails = [
   },
 ];
 
-// Enter your Education Details here
+
 export const eduDetails = [
   {
     Position: "Master of Computer Applications",
@@ -104,6 +105,8 @@ export const techStackDetails = {
   java:java,
   bootstrap: bootstrap,
   hibernate:hibernate,
+  springSecurity:springSecurity,
+  aws:aws,
   vscode: vscode,
   postman: postman,
   npm: npm,
@@ -180,7 +183,7 @@ rience.
    
 ];
 
-// Enter your Contact Details here
+
 export const contactDetails = {
   email: "rahulyadav96962004@gmail.com",
   phone: "+91 9696971447",
